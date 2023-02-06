@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21560" started-at="2023-02-06T07:38:21Z" finished-at="2023-02-06T07:38:43Z">
+    <groups>
+      <group name="sanity">
+        <method signature="suite1.tc5()[pri:7, instance:org.testNg1.suite1@7b49cea0]" name="tc5" class="org.testNg1.suite1"/>
+        <method signature="suite2.tc15()[pri:7, instance:org.testNg1.suite2@5bc79255]" name="tc15" class="org.testNg1.suite2"/>
+        <method signature="suite3.tc25()[pri:7, instance:org.testNg1.suite3@47ef968d]" name="tc25" class="org.testNg1.suite3"/>
+      </group> <!-- sanity -->
+      <group name="@reg">
+        <method signature="suite1.tc2()[pri:6, instance:org.testNg1.suite1@7b49cea0]" name="tc2" class="org.testNg1.suite1"/>
+        <method signature="suite1.tc4()[pri:8, instance:org.testNg1.suite1@7b49cea0]" name="tc4" class="org.testNg1.suite1"/>
+        <method signature="suite2.tc12()[pri:6, instance:org.testNg1.suite2@5bc79255]" name="tc12" class="org.testNg1.suite2"/>
+        <method signature="suite2.tc14()[pri:8, instance:org.testNg1.suite2@5bc79255]" name="tc14" class="org.testNg1.suite2"/>
+        <method signature="suite3.tc22()[pri:6, instance:org.testNg1.suite3@47ef968d]" name="tc22" class="org.testNg1.suite3"/>
+        <method signature="suite3.tc24()[pri:8, instance:org.testNg1.suite3@47ef968d]" name="tc24" class="org.testNg1.suite3"/>
+      </group> <!-- @reg -->
+    </groups>
+    <test name="Test" duration-ms="21560" started-at="2023-02-06T07:38:21Z" finished-at="2023-02-06T07:38:43Z">
+      <class name="org.testNg1.suite1">
+        <test-method status="PASS" signature="tc7(java.lang.String)[pri:0, instance:org.testNg1.suite1@7b49cea0]" name="tc7" duration-ms="20765" started-at="2023-02-06T13:08:21Z" finished-at="2023-02-06T13:08:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+        <test-method status="PASS" signature="tc8(java.lang.String)[pri:0, instance:org.testNg1.suite1@7b49cea0]" name="tc8" duration-ms="359" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[senthil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8 -->
+        <test-method status="PASS" signature="tc2()[pri:6, instance:org.testNg1.suite1@7b49cea0]" name="tc2" duration-ms="7" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc4()[pri:8, instance:org.testNg1.suite1@7b49cea0]" name="tc4" duration-ms="3" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:7, instance:org.testNg1.suite1@7b49cea0]" name="tc5" duration-ms="7" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc5()[pri:7, instance:org.testNg1.suite1@7b49cea0]" name="tc5" duration-ms="3" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc5()[pri:7, instance:org.testNg1.suite1@7b49cea0]" name="tc5" duration-ms="5" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+      </class> <!-- org.testNg1.suite1 -->
+      <class name="org.testNg1.suite3">
+        <test-method status="PASS" signature="tc27()[pri:0, instance:org.testNg1.suite3@47ef968d]" name="tc27" duration-ms="7" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc27 -->
+        <test-method status="PASS" signature="tc27()[pri:0, instance:org.testNg1.suite3@47ef968d]" name="tc27" duration-ms="4" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc27 -->
+        <test-method status="PASS" signature="tc27()[pri:0, instance:org.testNg1.suite3@47ef968d]" name="tc27" duration-ms="3" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc27 -->
+        <test-method status="PASS" signature="tc27()[pri:0, instance:org.testNg1.suite3@47ef968d]" name="tc27" duration-ms="3" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc27 -->
+        <test-method status="PASS" signature="tc28()[pri:0, instance:org.testNg1.suite3@47ef968d]" name="tc28" duration-ms="3" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc28 -->
+        <test-method status="PASS" signature="tc26()[pri:3, instance:org.testNg1.suite3@47ef968d]" name="tc26" duration-ms="4" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc26 -->
+        <test-method status="PASS" signature="tc22()[pri:6, instance:org.testNg1.suite3@47ef968d]" name="tc22" duration-ms="4" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc22 -->
+        <test-method status="PASS" signature="tc24()[pri:8, instance:org.testNg1.suite3@47ef968d]" name="tc24" duration-ms="3" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc24 -->
+        <test-method status="PASS" signature="tc25()[pri:7, instance:org.testNg1.suite3@47ef968d]" name="tc25" duration-ms="4" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc25 -->
+        <test-method status="PASS" signature="tc25()[pri:7, instance:org.testNg1.suite3@47ef968d]" name="tc25" duration-ms="23" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc25 -->
+        <test-method status="PASS" signature="tc25()[pri:7, instance:org.testNg1.suite3@47ef968d]" name="tc25" duration-ms="3" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc25 -->
+      </class> <!-- org.testNg1.suite3 -->
+      <class name="org.testNg1.suite2">
+        <test-method status="PASS" signature="tc17()[pri:0, instance:org.testNg1.suite2@5bc79255]" name="tc17" duration-ms="4" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc17 -->
+        <test-method status="PASS" signature="tc17()[pri:0, instance:org.testNg1.suite2@5bc79255]" name="tc17" duration-ms="5" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc17 -->
+        <test-method status="PASS" signature="tc17()[pri:0, instance:org.testNg1.suite2@5bc79255]" name="tc17" duration-ms="5" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc17 -->
+        <test-method status="PASS" signature="tc17()[pri:0, instance:org.testNg1.suite2@5bc79255]" name="tc17" duration-ms="11" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc17 -->
+        <test-method status="PASS" signature="tc18()[pri:0, instance:org.testNg1.suite2@5bc79255]" name="tc18" duration-ms="3" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc18 -->
+        <test-method status="PASS" signature="tc16()[pri:3, instance:org.testNg1.suite2@5bc79255]" name="tc16" duration-ms="3" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc16 -->
+        <test-method status="PASS" signature="tc12()[pri:6, instance:org.testNg1.suite2@5bc79255]" name="tc12" duration-ms="23" started-at="2023-02-06T13:08:42Z" finished-at="2023-02-06T13:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12 -->
+        <test-method status="PASS" signature="tc14()[pri:8, instance:org.testNg1.suite2@5bc79255]" name="tc14" duration-ms="4" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc14 -->
+        <test-method status="PASS" signature="tc15()[pri:7, instance:org.testNg1.suite2@5bc79255]" name="tc15" duration-ms="2" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc15 -->
+        <test-method status="PASS" signature="tc15()[pri:7, instance:org.testNg1.suite2@5bc79255]" name="tc15" duration-ms="6" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc15 -->
+        <test-method status="PASS" signature="tc15()[pri:7, instance:org.testNg1.suite2@5bc79255]" name="tc15" duration-ms="2" depends-on-groups="@reg" started-at="2023-02-06T13:08:43Z" finished-at="2023-02-06T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc15 -->
+      </class> <!-- org.testNg1.suite2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
