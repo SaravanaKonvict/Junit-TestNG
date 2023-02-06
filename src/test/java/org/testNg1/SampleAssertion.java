@@ -4,18 +4,19 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import net.bytebuddy.agent.builder.AgentBuilder.Default.WarmupStrategy.Enabled;
-
 public class SampleAssertion {
 
+	//Git Hub Practice
+	
 	@Test(enabled=false)
 	private void Tc1() {
 	//hard assert
 		String s = "abc";
 		Assert.assertEquals(s, "abc");
+		System.out.println("Git Hub Training");
 		System.out.println("Assert passed");
-		
-	}
+		System.out.println("Modifications Git Hub Training");
+		}
 	
 	@Test(enabled=false)
 	private void Tc3() {
